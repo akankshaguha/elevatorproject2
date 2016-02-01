@@ -12,15 +12,6 @@ public class LiftTest {
 
    
 
-    @Test(expected = InvalidFloorselectionException.class)
-    public void ItShouldReachToTheCorrectFloor() {
-        //given
-        Floor floor = new Floor();
-        Lift lift = new Lift();
-
-        //when
-        lift.isLiftReachToTheCorrectFloor(new SelectButton(10));
-    }
 
 
      @Test
