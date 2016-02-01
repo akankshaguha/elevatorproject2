@@ -10,16 +10,7 @@ import java.util.Comparator;
 public class LiftTest {
 
 
-    @Test(expected = InvalidLiftConfigurationException.class)
-    public void itShouldHaveButtonsInsideLift() {
-        //given
-        Lift lift = new Lift();
-
-
-        //when
-        lift.isButtonInsideLiftExists(new SelectButton(2));
-        //then
-    }
+   
 
     @Test(expected = InvalidFloorselectionException.class)
     public void ItShouldReachToTheCorrectFloor() {
