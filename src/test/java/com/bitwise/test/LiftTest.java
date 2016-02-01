@@ -14,17 +14,7 @@ public class LiftTest {
 
 
 
-     @Test
-     public void itShouldMoveTheLift(){
-        //given
-        Lift lift = new Lift();
-
-        //when
-        lift.moveTheLift(new SelectButton(1));
-        //then
-        Assert.assertEquals(true,lift.isLiftMoved(new SelectButton(1)));
-    }
-
+     
    @Test
     public void itShouldMoveTheLiftToGoInTheUpwordDirection(){
         //given
